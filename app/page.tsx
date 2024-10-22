@@ -5,13 +5,12 @@ import { useRouter } from 'next/navigation'
 import Script from 'next/script'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-
-import Header from './components/Header'
-import Hero from './components/Hero'
-import Menu from './components/Menu'
-import About from './components/About'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import Header from '@/components/Header'
+import Hero from '@/components/Hero'
+import Menu from '@/components/Menu'
+import About from '@/components/About'
+import Contact from '@/components/Contact'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   const router = useRouter()
